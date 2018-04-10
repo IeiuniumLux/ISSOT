@@ -23,6 +23,19 @@ The figure below shows the addtional vectors and angles needed to calculate the 
 
 - [Android Studio 3.0+](https://developer.android.com/studio/index.html)
 - The following individual components:
+Part             | Qty 
+---------------- | ----
+[OpenMV Cam M7](http://openmv.io/products/openmv-cam-m7)<br /> | 1 
+[OpenMV Cam WiFi Shield](http://openmv.io/products/wifi-shield "OpenMV Cam WiFi Shield")<br /> | 1 
+[OpenMV IR Lens](https://openmv.io/collections/lenses/products/ir-lens "IR Lens")<br /> | 1 
+[Clear Acrylic Cement for Bonding Parts](https://www.amazon.com/Glarks-280-Pieces-Phillips-Stainless-Assortment/dp/B01G0KRGXC "Clear Acrylic Cement")<br /> | 1 
+[Hitec HS-82MG Metal Gear Micro Servo](https://www.amazon.com/gp/product/B0012YXRJE/ref=ox_sc_act_title_1?smid=A20WEVHROQQX12&psc=1 "HS-82MG Servo")<br /> | 1 
+[Barrel Jack to 2-Pin JST Adapter](https://www.frys.com/product/7726848 "Adapter")<br /> | 1 
+[3-Inch Diameter Round Tin](https://www.amazon.com/gp/product/B01NCWUE6Y/ref=ox_sc_act_title_1?smid=AZA0I12YMQNES&psc=1 "Round Tin")<br /> *a mini Pringles can should work too* | 1 
+[Knurled Thumb Nuts](https://www.ebay.com/itm/321361726270 "Knurled Thumb Nuts")<br /> *optional*| 2 
+[4" x 4" Acrylic/Plexiglass Block](https://www.ebay.com/itm/292072330728 "Base")<br /> | 1 
+[CAD Parts](stl/ "STL files")<br />*camera mount by Chris Anderson and feeder structure by littleBits* <br />![Parts](/img/3D-parts.png) |
+
   - [Raspberry Pi 3 Model B](https://www.adafruit.com/product/3055)
   - [DC & Stepper Motor HAT](https://www.adafruit.com/product/2348)
   - [Pimoroni Rainbow HAT](https://www.adafruit.com/product/3354)
