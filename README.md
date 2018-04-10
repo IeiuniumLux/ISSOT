@@ -22,32 +22,22 @@ The figure below shows the addtional vectors and angles needed to calculate the 
 ## What you'll need
 
 - [Android Studio 3.0+](https://developer.android.com/studio/index.html)
+
 The following individual components:
 
 Part             | Qty 
 ---------------- | ----
-[OpenMV Cam M7](http://openmv.io/products/openmv-cam-m7)<br /> | 1 
-[OpenMV Cam WiFi Shield](http://openmv.io/products/wifi-shield "OpenMV Cam WiFi Shield")<br /> | 1 
-[OpenMV IR Lens](https://openmv.io/collections/lenses/products/ir-lens "IR Lens")<br /> | 1 
-[Clear Acrylic Cement for Bonding Parts](https://www.amazon.com/Glarks-280-Pieces-Phillips-Stainless-Assortment/dp/B01G0KRGXC "Clear Acrylic Cement")<br /> | 1 
-[Hitec HS-82MG Metal Gear Micro Servo](https://www.amazon.com/gp/product/B0012YXRJE/ref=ox_sc_act_title_1?smid=A20WEVHROQQX12&psc=1 "HS-82MG Servo")<br /> | 1 
-[Barrel Jack to 2-Pin JST Adapter](https://www.frys.com/product/7726848 "Adapter")<br /> | 1 
-[3-Inch Diameter Round Tin](https://www.amazon.com/gp/product/B01NCWUE6Y/ref=ox_sc_act_title_1?smid=AZA0I12YMQNES&psc=1 "Round Tin")<br /> *a mini Pringles can should work too* | 1 
-[Knurled Thumb Nuts](https://www.ebay.com/itm/321361726270 "Knurled Thumb Nuts")<br /> *optional*| 2 
-[4" x 4" Acrylic/Plexiglass Block](https://www.ebay.com/itm/292072330728 "Base")<br /> | 1 
-[CAD Parts](stl/ "STL files")<br />*camera mount by Chris Anderson and feeder structure by littleBits* <br />![Parts](/img/3D-parts.png) |
+[Raspberry Pi 3 Model B](https://www.adafruit.com/product/3055)<br /> | 1 
+[DC & Stepper Motor HAT](https://www.adafruit.com/product/2348)<br /> | 1 
+[Pimoroni Rainbow HAT](https://www.adafruit.com/product/3354)<br /> | 1 
+[5V 2.4A Power Supply](https://www.adafruit.com/product/1995)<br /> | 1 
+[Stepper Motor](https://www.pololu.com/product/1200)<br /> | 1 
+[HS-322HD Servo](https://www.servocity.com/hs-322hd-servo)<br /> | 1 
+[Set Screw Hub - 5mm Bore](https://www.servocity.com/770-set-screw-hubs)<br /> *a mini Pringles can should work too* | 1 
+[5/16" – 3/8" Rubber End Cap](https://www.servocity.com/0-375-3-8-rubber-end-cap)<br /> *optional*| 2 
+[Two(2) 1" Bore Bottom Tapped Clamping Mount](https://www.servocity.com/1-bore-bottom-tapped-clamping-mounts)<br /> | 2 
+[Actobotics® Hardware Pack A - (optional, but recommended)](https://www.servocity.com/actobotics-hardware-pack-a)<br /> | 1 
 
-  - [Raspberry Pi 3 Model B](https://www.adafruit.com/product/3055)
-  - [DC & Stepper Motor HAT](https://www.adafruit.com/product/2348)
-  - [Pimoroni Rainbow HAT](https://www.adafruit.com/product/3354)
-  - [5V 2.4A Power Supply](https://www.adafruit.com/product/1995)
-  - [Stepper Motor](https://www.pololu.com/product/1200)
-  - [HS-322HD Servo](https://www.servocity.com/hs-322hd-servo)
-  - [Set Screw Hub - 5mm Bore](https://www.servocity.com/770-set-screw-hubs)
-  - [5/16" – 3/8" Rubber End Cap](https://www.servocity.com/0-375-3-8-rubber-end-cap)
-  - [Two(2) 1" Bore Bottom Tapped Clamping Mount](https://www.servocity.com/1-bore-bottom-tapped-clamping-mounts)
-  -
-  - [Actobotics® Hardware Pack A - (optional, but recommended)](https://www.servocity.com/actobotics-hardware-pack-a)
   
 - Install Android Things on the Raspberry Pi 3 (flashing instructions [here](https://developer.android.com/things/hardware/raspberrypi.html))
 
