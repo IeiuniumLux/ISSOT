@@ -27,6 +27,12 @@ The figure below shows the addtional vectors and angles needed to calculate the 
   - [DC & Stepper Motor HAT](https://www.adafruit.com/product/2348)
   - [Pimoroni Rainbow HAT](https://www.adafruit.com/product/3354)
   - [5V 2.4A Power Supply](https://www.adafruit.com/product/1995)
+  - [Stepper Motor](https://www.pololu.com/product/1200)
+  - [HS-322HD Servo](https://www.servocity.com/hs-322hd-servo)
+  - [Set Screw Hub - 5mm Bore](https://www.servocity.com/770-set-screw-hubs)
+  - [5/16" – 3/8" Rubber End Cap](https://www.servocity.com/0-375-3-8-rubber-end-cap)
+  - [1" Bore Bottom Tapped Clamping Mount](https://www.servocity.com/1-bore-bottom-tapped-clamping-mounts)
+  
 - Install Android Things on the Raspberry Pi 3 (flashing instructions [here](https://developer.android.com/things/hardware/raspberrypi.html))
 
 
