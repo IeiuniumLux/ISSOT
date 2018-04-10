@@ -18,6 +18,18 @@ The figure below shows the addtional vectors and angles needed to calculate the 
 + γ is the central angle measured between rE and rS
 + ψ is the angle measured from rE to d
 
+
+## What you'll need
+
+- [Android Studio 3.0+](https://developer.android.com/studio/index.html)
+- The following individual components:
+  - [Raspberry Pi 3 Model B](https://www.adafruit.com/product/3055)
+  - [DC & Stepper Motor HAT](https://www.adafruit.com/product/2348)
+  - [Pimoroni Rainbow HAT](https://www.adafruit.com/product/3354)
+  - [5V 2.4A Power Supply](https://www.adafruit.com/product/1995)
+- Install Android Things on the Raspberry Pi 3 (flashing instructions [here](https://developer.android.com/things/hardware/raspberrypi.html))
+
+
 ## References
 - https://spotthestation.nasa.gov/home.cfm
 - https://www.ngdc.noaa.gov/geomag-web/#declination
