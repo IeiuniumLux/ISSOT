@@ -30,7 +30,7 @@ Part             | Qty
 [Raspberry Pi 3 Model B](https://www.adafruit.com/product/3055)<br /> | 1 
 [DC & Stepper Motor HAT](https://www.adafruit.com/product/2348)<br /> | 1 
 [Pimoroni Rainbow HAT](https://www.adafruit.com/product/3354)<br /> | 1 
-[5V 4A Power Supply](https://www.ebay.com/itm/152944199414)<br />* or simmilar, but 3A-4A is reccommended* | 1 
+[5V 4A Power Supply](https://www.ebay.com/itm/152944199414)<br />* or similar, but 3A-4A is reccommended* | 1 
 [Slip Ring - 3 Wire (10A)](https://www.sparkfun.com/products/13063)<br /> | 1
 [Stepper Motor](https://www.pololu.com/product/1200)<br /> | 1 
 [HS-322HD Servo](https://www.servocity.com/hs-322hd-servo)<br /> | 1 
