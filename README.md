@@ -39,10 +39,10 @@ Part             | Qty
 [1" Bore Side Tapped Pillow Block](https://www.servocity.com/1-000-bore-quad-pillow-block)<br /> | 2
 [1" BORE, FACE TAPPED CLAMPING HUB, 1.50" PATTERN](https://www.servocity.com/1-bore-clamping-hub-a)<br /> | 1
 [90° SINGLE ANGLE PATTERN BRACKET](https://www.servocity.com/90-single-angle-channel-bracket)<br /> | 1
-[1" STAINLESS STEEL TUBING](https://www.servocity.com/1-00-stainless-steel-tubing)<br />*Length6.00"* | 1
+[1" STAINLESS STEEL TUBING](https://www.servocity.com/1-00-stainless-steel-tubing)<br />*length: 6.00"* | 1
 [Actobotics® Hardware Pack A](https://www.servocity.com/actobotics-hardware-pack-a)<br />*(optional, but recommended)*| 1 
-[]()<br /> | 1
-[]()<br /> | 1
+[STANDARD SERVO PLATE C](https://www.servocity.com/standard-servo-plate-c)<br /> | 1
+[0.250" CHAIN (5 FEET)](https://www.servocity.com/0-250-chain-5-feet)<br /> | 1
 []()<br /> | 1
 []()<br /> | 1
 []()<br /> | 1
