@@ -38,16 +38,16 @@ Part             | Qty
 [1" Bore Bottom Tapped Clamping Mount](https://www.servocity.com/1-bore-bottom-tapped-clamping-mounts)<br /> | 2 
 [1" Bore Side Tapped Pillow Block](https://www.servocity.com/1-000-bore-quad-pillow-block)<br /> | 2
 [1" Bore, Face Tapped Clamping HUB, 1.50" Pattern](https://www.servocity.com/1-bore-clamping-hub-a)<br /> | 1
-[90° Single Angle Pattern Brackett](https://www.servocity.com/90-single-angle-channel-bracket)<br /> | 1
-[1" STAINLESS STEEL TUBING](https://www.servocity.com/1-00-stainless-steel-tubing)<br />*length: 6.00"* | 1
-[STANDARD SERVO PLATE C](https://www.servocity.com/standard-servo-plate-c)<br /> | 1
-[0.250" CHAIN (5 FEET)](https://www.servocity.com/0-250-chain-5-feet)<br /> | 1
-[90° SINGLE ANGLE SHORT PATTERN BRACKET](https://www.servocity.com/90-single-angle-short-channel-bracket)<br /> | 2
-[LARGE SQUARE SCREW PLATE](https://www.servocity.com/large-square-screw-plate)<br /> | 3
-[1" BORE 0.250" PITCH ALUMINUM HUB SPROCKETS](https://www.servocity.com/1-50-aluminum-hub-mount-sprockets-0-250-pitch)<br />*# of teeth: 40T* | 1
-[1/2" BORE 0.250" PITCH ALUMINUM HUB SPROCKETS](https://www.servocity.com/0-770-aluminum-hub-mount-sprockets-0-250-pitch)<br />*# of teeth: 16T* | 1
-[FLAT DUAL PATTERN BRACKET](https://www.servocity.com/flat-dual-channel-bracket)<br /> | 3
-[3.85" (11 HOLE) ALUMINUM BEAMS (2 PACK)](https://www.servocity.com/3-85-aluminum-beam)<br /> | 1
+[90° Single Angle Pattern Bracket](https://www.servocity.com/90-single-angle-channel-bracket)<br /> | 1
+[1" Stainless Steel Tubing](https://www.servocity.com/1-00-stainless-steel-tubing)<br />*length: 6.00"* | 1
+[Standard Servo Plate C](https://www.servocity.com/standard-servo-plate-c)<br /> | 1
+[0.250" Chain (5 Feet)](https://www.servocity.com/0-250-chain-5-feet)<br /> | 1
+[90° Single Angle Short Pattern Bracket](https://www.servocity.com/90-single-angle-short-channel-bracket)<br /> | 2
+[Large Square Screw Plate](https://www.servocity.com/large-square-screw-plate)<br /> | 3
+[1" Bore 0.250" Pitch Aliminum HUB Sprocket](https://www.servocity.com/1-50-aluminum-hub-mount-sprockets-0-250-pitch)<br />*# of teeth: 40T* | 1
+[1/2" Bore 0.250" Pitch Aluminum HUB Sprocket](https://www.servocity.com/0-770-aluminum-hub-mount-sprockets-0-250-pitch)<br />*# of teeth: 16T* | 1
+[Flat Dual Pattern Bracket](https://www.servocity.com/flat-dual-channel-bracket)<br /> | 3
+[3.85" (11 hole) Aluminum Beams (2 PACK)](https://www.servocity.com/3-85-aluminum-beam)<br /> | 1
 [Actobotics Lightweight HUB Horns](https://www.servocity.com/lightweight-hub-horns)<br /> | 1
 [Wood Rectangle Plaque](https://www.amazon.com/gp/product/B0085TGTAS/ref=ox_sc_act_title_1?smid=ATVPDKIKX0DER&psc=1) <br />*optional* | 1
 [Actobotics® Hardware Pack A](https://www.servocity.com/actobotics-hardware-pack-a)<br />*(optional, but recommended)*| 1
