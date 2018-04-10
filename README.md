@@ -49,6 +49,7 @@ Part             | Qty
 [Flat Dual Pattern Bracket](https://www.servocity.com/flat-dual-channel-bracket)<br /> | 3
 [3.85" (11 hole) Aluminum Beams (2 PACK)](https://www.servocity.com/3-85-aluminum-beam)<br /> | 1
 [Actobotics Lightweight HUB Horns](https://www.servocity.com/lightweight-hub-horns)<br /> | 1
+[Splitter Power Adapter Cable 5.5 x 2.1mm](https://www.ebay.com/itm/162601585346) <br />*optional* | 1
 [Wood Rectangle Plaque](https://www.amazon.com/gp/product/B0085TGTAS/ref=ox_sc_act_title_1?smid=ATVPDKIKX0DER&psc=1) <br />*optional* | 1
 [Actobotics® Hardware Pack A](https://www.servocity.com/actobotics-hardware-pack-a)<br />*(optional, but recommended)*| 1
 
