@@ -44,8 +44,8 @@ Part             | Qty
 [0.250" CHAIN (5 FEET)](https://www.servocity.com/0-250-chain-5-feet)<br /> | 1
 [90° SINGLE ANGLE SHORT PATTERN BRACKET](https://www.servocity.com/90-single-angle-short-channel-bracket)<br /> | 2
 [LARGE SQUARE SCREW PLATE](https://www.servocity.com/large-square-screw-plate)<br /> | 3
-[1" BORE 0.250" PITCH ALUMINUM HUB SPROCKETS](https://www.servocity.com/1-50-aluminum-hub-mount-sprockets-0-250-pitch)<br />*40T* | 1
-[1/2" BORE 0.250" PITCH ALUMINUM HUB SPROCKETS](https://www.servocity.com/0-770-aluminum-hub-mount-sprockets-0-250-pitch)<br />*16T* | 1
+[1" BORE 0.250" PITCH ALUMINUM HUB SPROCKETS](https://www.servocity.com/1-50-aluminum-hub-mount-sprockets-0-250-pitch)<br />*# of teeth: 40T* | 1
+[1/2" BORE 0.250" PITCH ALUMINUM HUB SPROCKETS](https://www.servocity.com/0-770-aluminum-hub-mount-sprockets-0-250-pitch)<br />*# of teeth: 16T* | 1
 [FLAT DUAL PATTERN BRACKET](https://www.servocity.com/flat-dual-channel-bracket)<br /> | 3
 [3.85" (11 HOLE) ALUMINUM BEAMS (2 PACK)](https://www.servocity.com/3-85-aluminum-beam)<br /> | 1
 [ACTOBOTICS LIGHTWEIGHT HUB HORNS](https://www.servocity.com/lightweight-hub-horns)<br /> | 1
