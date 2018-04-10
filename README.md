@@ -22,7 +22,8 @@ The figure below shows the addtional vectors and angles needed to calculate the 
 ## What you'll need
 
 - [Android Studio 3.0+](https://developer.android.com/studio/index.html)
-- The following individual components:
+The following individual components:
+
 Part             | Qty 
 ---------------- | ----
 [OpenMV Cam M7](http://openmv.io/products/openmv-cam-m7)<br /> | 1 
