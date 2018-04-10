@@ -1,5 +1,5 @@
 # ISSOT
-The ISS Orbit Tracker (ISSOT) is an Android Things project that keeps track of the International Space Station. It calculates and displays the azimuth and elevation during the ISS pass. This relatively simple device will give you a visual indication of the location of the Space Station, even if you can't see it.
+The ISS Orbit Tracker (ISSOT) is an [Android Things](https://developer.android.com/things/get-started/index.html) project that keeps track of the [International Space Station](https://www.nasa.gov/pdf/508318main_ISS_ref_guide_nov2010.pdf). It calculates and displays the azimuth and elevation during the ISS pass. This relatively simple device will give you a visual indication of the location of the Space Station, even if you can't see it.
 
 ### Locating the ISS earth
 The ISS conducts operations in the low earth orbit (LEO) about 400 km above the earth's surface and orbits the planet approximately every 90 minutes. Its location in the sky can be determined using the “look angles”; which are two angles called: 
@@ -21,4 +21,3 @@ The figure below shows the addtional vectors and angles needed to calculate the 
 ## References
 - https://spotthestation.nasa.gov/home.cfm
 - https://www.ngdc.noaa.gov/geomag-web/#declination
-- https://www.nasa.gov/pdf/508318main_ISS_ref_guide_nov2010.pdf
