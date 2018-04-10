@@ -32,6 +32,8 @@ The figure below shows the addtional vectors and angles needed to calculate the 
   - [Set Screw Hub - 5mm Bore](https://www.servocity.com/770-set-screw-hubs)
   - [5/16" – 3/8" Rubber End Cap](https://www.servocity.com/0-375-3-8-rubber-end-cap)
   - [Two(2) 1" Bore Bottom Tapped Clamping Mount](https://www.servocity.com/1-bore-bottom-tapped-clamping-mounts)
+  -
+  - [Actobotics® Hardware Pack A - (optional, but recommended)](https://www.servocity.com/actobotics-hardware-pack-a)
   
 - Install Android Things on the Raspberry Pi 3 (flashing instructions [here](https://developer.android.com/things/hardware/raspberrypi.html))
 
