@@ -18,3 +18,7 @@ The figure below shows the addtional vectors and angles needed to calculate the 
 + γ is the central angle measured between rE and rS
 + ψ is the angle measured from rE to d
 
+## References
+- https://spotthestation.nasa.gov/home.cfm
+- https://www.ngdc.noaa.gov/geomag-web/#declination
+- https://www.nasa.gov/pdf/508318main_ISS_ref_guide_nov2010.pdf
