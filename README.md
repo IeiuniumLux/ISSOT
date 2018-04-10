@@ -49,6 +49,7 @@ Part             | Qty
 [FLAT DUAL PATTERN BRACKET](https://www.servocity.com/flat-dual-channel-bracket)<br /> | 3
 [3.85" (11 HOLE) ALUMINUM BEAMS (2 PACK)](https://www.servocity.com/3-85-aluminum-beam)<br /> | 1
 [ACTOBOTICS LIGHTWEIGHT HUB HORNS](https://www.servocity.com/lightweight-hub-horns)<br /> | 1
+[Wood Rectangle Plaque](https://www.amazon.com/gp/product/B0085TGTAS/ref=ox_sc_act_title_1?smid=ATVPDKIKX0DER&psc=1) <br />*optional* | 1
 [Actobotics® Hardware Pack A](https://www.servocity.com/actobotics-hardware-pack-a)<br />*(optional, but recommended)*| 1
 
 
