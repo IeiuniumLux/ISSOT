@@ -35,11 +35,18 @@ Part             | Qty
 [HS-322HD Servo](https://www.servocity.com/hs-322hd-servo)<br /> | 1 
 [Set Screw Hub - 5mm Bore](https://www.servocity.com/770-set-screw-hubs)<br /> | 1 
 [5/16" – 3/8" Rubber End Cap](https://www.servocity.com/0-375-3-8-rubber-end-cap)<br /> | 2 
-[Two(2) 1" Bore Bottom Tapped Clamping Mount](https://www.servocity.com/1-bore-bottom-tapped-clamping-mounts)<br /> | 2 
-[Actobotics® Hardware Pack A](https://www.servocity.com/actobotics-hardware-pack-a)<br /> *(optional, but recommended)*| 1 
-
-  
-- 
+[1" Bore Bottom Tapped Clamping Mount](https://www.servocity.com/1-bore-bottom-tapped-clamping-mounts)<br /> | 2 
+[1" Bore Side Tapped Pillow Block](https://www.servocity.com/1-000-bore-quad-pillow-block)<br /> | 2
+[1" BORE, FACE TAPPED CLAMPING HUB, 1.50" PATTERN](https://www.servocity.com/1-bore-clamping-hub-a)<br /> | 1
+[90° SINGLE ANGLE PATTERN BRACKET](https://www.servocity.com/90-single-angle-channel-bracket)<br /> | 1
+[1" STAINLESS STEEL TUBING](https://www.servocity.com/1-00-stainless-steel-tubing)<br />*Length6.00"* | 1
+[Actobotics® Hardware Pack A](https://www.servocity.com/actobotics-hardware-pack-a)<br />*(optional, but recommended)*| 1 
+[]()<br /> | 1
+[]()<br /> | 1
+[]()<br /> | 1
+[]()<br /> | 1
+[]()<br /> | 1
+[]()<br /> | 1
 
 
 ## References
