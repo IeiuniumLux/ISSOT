@@ -17,3 +17,4 @@ The figure below shows the addtional vectors and angles needed to calculate the 
 + d is the vector from the tracker to the ISS.  
 + γ is the central angle measured between rE and rS
 + ψ is the angle measured from rE to d
+
