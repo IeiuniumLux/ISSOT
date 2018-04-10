@@ -21,7 +21,7 @@ The figure below shows the addtional vectors and angles needed to calculate the 
 
 ## What you'll need
 
-- [Android Studio 3.0+](https://developer.android.com/studio/index.html)
+- [Android Studio 3.0+](https://developer.android.com/studio/index.html) and install Android Things on the Raspberry Pi 3 (flashing instructions [here](https://developer.android.com/things/hardware/raspberrypi.html))
 
 The following individual components:
 
@@ -33,13 +33,13 @@ Part             | Qty
 [5V 2.4A Power Supply](https://www.adafruit.com/product/1995)<br /> | 1 
 [Stepper Motor](https://www.pololu.com/product/1200)<br /> | 1 
 [HS-322HD Servo](https://www.servocity.com/hs-322hd-servo)<br /> | 1 
-[Set Screw Hub - 5mm Bore](https://www.servocity.com/770-set-screw-hubs)<br /> *a mini Pringles can should work too* | 1 
-[5/16" – 3/8" Rubber End Cap](https://www.servocity.com/0-375-3-8-rubber-end-cap)<br /> *optional*| 2 
+[Set Screw Hub - 5mm Bore](https://www.servocity.com/770-set-screw-hubs)<br /> | 1 
+[5/16" – 3/8" Rubber End Cap](https://www.servocity.com/0-375-3-8-rubber-end-cap)<br /> | 2 
 [Two(2) 1" Bore Bottom Tapped Clamping Mount](https://www.servocity.com/1-bore-bottom-tapped-clamping-mounts)<br /> | 2 
-[Actobotics® Hardware Pack A - (optional, but recommended)](https://www.servocity.com/actobotics-hardware-pack-a)<br /> | 1 
+[Actobotics® Hardware Pack A](https://www.servocity.com/actobotics-hardware-pack-a)<br /> *(optional, but recommended)*| 1 
 
   
-- Install Android Things on the Raspberry Pi 3 (flashing instructions [here](https://developer.android.com/things/hardware/raspberrypi.html))
+- 
 
 
 ## References
