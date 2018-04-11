@@ -56,9 +56,9 @@ Part             | Qty
 [Large Square Screw Plate](https://www.servocity.com/large-square-screw-plate)<br /> | 3
 [Flat Dual Pattern Bracket](https://www.servocity.com/flat-dual-channel-bracket)<br /> | 3
 [Actobotics® Hardware Pack A](https://www.servocity.com/actobotics-hardware-pack-a)<br />*(optional, but recommended)*| 1
-[Splitter Power Adapter Cable 5.5 x 2.1mm](https://www.ebay.com/itm/162601585346) <br />*optional* | 1
-[Wood Rectangle Plaque](https://www.amazon.com/gp/product/B0085TGTAS/ref=ox_sc_act_title_1?smid=ATVPDKIKX0DER&psc=1) <br />*optional* | 1
-[Chain Breaker Tool](https://www.pitsco.com/TETRIX-Chain-Breaker-Tool) <br />*optional* | 1
+[Splitter Power Adapter Cable 5.5 x 2.1mm](https://www.ebay.com/itm/162601585346) <br />*(optional)* | 1
+[Wood Rectangle Plaque](https://www.amazon.com/gp/product/B0085TGTAS/ref=ox_sc_act_title_1?smid=ATVPDKIKX0DER&psc=1) <br />*(optional)* | 1
+[Chain Breaker Tool](https://www.pitsco.com/TETRIX-Chain-Breaker-Tool) <br />*(optional)* | 1
 
 > Most of the aluminum structural is based on G. Hillhouse's prototype design.
 
