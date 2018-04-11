@@ -6,9 +6,7 @@ The ISS conducts operations in the low earth orbit (LEO) about 400 km above the 
 
 Azimuth (ψ) is the angle measured in the plane parallel to the horizon from the polar north going clockwise. This angle has a value between 0° and 360°.
 
-Elevation (El) is the angle measured in the plane perpendicular to the horizon going up towards to the ISS. This angle has a value between –90° and +90° such that the horizontal direction is 0°. A vertically upwards is +90° and vertically downwards is –90°.
-
-The figure below shows the addtional vectors and angles needed to calculate the elevation angle.
+Elevation (El) is the angle measured in the plane perpendicular to the horizon going up towards to the ISS. This angle has a value between –90° and +90° such that the horizontal direction is 0°. A vertically upwards is +90° and vertically downwards is –90°. The figure below shows the addtional vectors and angles needed to calculate the elevation angle.
 
 ![angles](/images/geometry_elevation_angle.jpg)
 + rS is the vector from the center of the earth to the ISS
@@ -18,7 +16,7 @@ The figure below shows the addtional vectors and angles needed to calculate the 
 + ψ is the angle measured from rE to d
 
 ## How it works
-Built using a Raspberry Pi 3b and the Android Things embedded OS platform, ISSOT utilizes tracking information and motors to point at the ISS. To do so, it uses the [WTIA REST API](https://wheretheiss.at/w/developer) to perform the orbital propagation and coordinate the system transformations. The motors are driven by a [DC & Stepper Motor HAT](https://pinout.xyz/pinout/dc_stepper_motor_hat); which connects to the Raspberry Pi. The stepper motor (geared down with a chain drive) controls the azimuth and the servo controls the elevation. A three(3) wires slip-ring is installed in the bottom of the 6" tube to prevent the cables from getting tangled and allow electrical continuity through the rotating shaft.
+Built using a Raspberry Pi 3b and the Android Things embedded OS platform, ISSOT utilizes tracking information and motors to point at the ISS. To do so, it uses the [WTIA REST API](https://wheretheiss.at/w/developer) in conjuction with volley to grab JSON objects containing the position of the ISS. The motors are driven by a [DC & Stepper Motor HAT](https://pinout.xyz/pinout/dc_stepper_motor_hat); which connects to the Raspberry Pi. The stepper motor (geared down with a chain drive) controls the azimuth and the servo controls the elevation. A three(3) wires slip-ring is installed in the bottom of the 6" tube to prevent the cables from getting tangled and allow electrical continuity through the rotating shaft.
 
 The device requires to be initialized at [true north](https://www.ngdc.noaa.gov/geomag-web/#declination) at the moment of powering it up.  After that, it goes through a quick range-of-motion routine before starting to point at the ISS.
 
