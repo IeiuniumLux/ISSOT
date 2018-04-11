@@ -220,14 +220,17 @@ public class MainActivity extends Activity {
                             }
                         }
 
-                        final double rS = Math.toRadians(issAlt) + EARTH_RADIUS; // Radius of ISS (km)
-                        final double γ = Math.acos((Math.cos(φ1) * Math.cos(φ2) * Math.cos(λ1 - λ2) + Math.sin(φ1) * Math.sin(φ2)));  // earth central angle
+                        final double rS = issAlt + EARTH_RADIUS; // Radius from the center of the earth to the station (km)
+                        final double γ = Math.acos(Math.sin(φ1) * Math.sin(φ2) + Math.cos(φ1) * Math.cos(φ2) * Math.cos(λ1 - λ2));  // earth central angle
+
                         final double d = rS * Math.sqrt((1 + Math.pow((EARTH_RADIUS / rS), 2)) - (2 * (EARTH_RADIUS / rS) * Math.cos(γ))); // distance to the iss
+                        final double El = Math.toDegrees(Math.acos(rS / d * Math.sin(γ)) * ((rS < (d + EARTH_RADIUS)) ? -1 : 1)); // elevation angle
 
-                        final double el = Math.toDegrees(Math.acos(rS / d * Math.sin(γ)) * ((rS < (d + EARTH_RADIUS)) ? -1 : 1)); // elevation angle
+//                        final double d = Math.sqrt((1 + Math.pow((EARTH_RADIUS / rS), 2)) - (2 * (EARTH_RADIUS / rS) * Math.cos(γ))); // distance to the iss
+//                        final double El = Math.toDegrees(Math.acos(Math.sin(γ) / d) * ((rS > (d + EARTH_RADIUS)) ? -1 : 1));
 
-//                        Log.d(TAG, Double.toString(cAzimuth));
-//                        Log.d("el:", Double.toString(el));
+                        Log.d(TAG, Double.toString(cAzimuth));
+                        Log.d("el:", Double.toString(El));
 
                         // Initialize the stepper direction assuming its initial position is true north
                         if (!mStepperIntialized) {
@@ -259,7 +262,7 @@ public class MainActivity extends Activity {
                             }
                             mStepperMotor.step(mStepsNext, mDirNext, MotorHat.MICROSTEP);
                         }
-                        mServo.setAngle(Math.abs(90 + el));
+                        mServo.setAngle(Math.abs(90 + El));
                     } catch (Exception e) {
                         e.printStackTrace();
                     }
