@@ -1,6 +1,8 @@
 # ISSOT
 The ISS Orbit Tracker (ISSOT) is an [Android Things](https://developer.android.com/things/get-started/index.html) project that keeps track of the [International Space Station](https://www.nasa.gov/pdf/508318main_ISS_ref_guide_nov2010.pdf). It calculates and displays the azimuth and elevation during the ISS orbits. This relatively simple device will give you a visual indication of the location of the Space Station, even if you can't see it.
 
+> NOTE: While apps like [Spot the Station](https://spotthestation.nasa.gov/home.cfm) alert you when the ISS will be visible, this device lets you know where it is at any point in its orbit.
+
 ### Locating the ISS from Earth
 The ISS conducts operations in the low earth orbit (LEO) about 400 km above the earth's surface. It travels from west to east on an orbital inclination of 51.6 degrees. Each orbit takes 90-93 minutes, depending on the exact altitude of the ISS. Its location in the sky can be determined using two “look angles” called, Azimuth & Elevation angles.
 
@@ -19,8 +21,6 @@ Elevation (El) is the angle measured in the plane perpendicular to the horizon g
 Built using a Raspberry Pi 3b and the Android Things embedded OS platform, ISSOT utilizes tracking information and motors to point at the ISS. To do so, it uses the [WTIA REST API](https://wheretheiss.at/w/developer) in conjuction with the [Volley library](https://developer.android.com/training/volley/request.html) to grab JSON objects containing the position of the ISS. The motors are driven by a [DC & Stepper Motor HAT](https://pinout.xyz/pinout/dc_stepper_motor_hat); which connects to the Raspberry Pi. The stepper motor (geared down with a chain drive) controls the azimuth and the servo controls the elevation. A three(3) wires slip-ring is installed in the bottom of the 6" tube to prevent the cables from getting tangled and allow pulse modulation continuity through the rotating shaft.
 
 The device requires to be initialized at [true north](https://www.ngdc.noaa.gov/geomag-web/#declination) at the moment of powering it up.  After that, it goes through a quick range-of-motion routine before starting to point at the ISS.
-
-> NOTE: While apps like [Spot the Station](https://spotthestation.nasa.gov/home.cfm) alert you when the ISS will be visible, this device lets you know where it is at any point in its orbit.
 
 ### What you'll need
 
