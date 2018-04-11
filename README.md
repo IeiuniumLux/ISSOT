@@ -60,7 +60,7 @@ Part             | Qty
 [Wood Rectangle Plaque](https://www.amazon.com/gp/product/B0085TGTAS/ref=ox_sc_act_title_1?smid=ATVPDKIKX0DER&psc=1) <br />*(optional)* | 1
 [Chain Breaker Tool](https://www.pitsco.com/TETRIX-Chain-Breaker-Tool) <br />*(optional)* | 1
 
-> Most of the aluminum structural is based on G. Hillhouse's prototype design.
+> The aluminum structural design is based on G. Hillhouse's prototype.
 
 
 ## References
