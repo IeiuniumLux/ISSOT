@@ -18,8 +18,15 @@ The figure below shows the addtional vectors and angles needed to calculate the 
 + γ is the central angle measured between rE and rS
 + ψ is the angle measured from rE to d
 
+## How it works
+Built using a Raspberry Pi 3b and the Android things, ISSOT utilizes tracking information and motors to point at the ISS.
+It performs the orbital propagation and coordinate the system transformations using the [WTIA REST API] (https://wheretheiss.at/w/developer). The motors are driven by [DC & Stepper Motor HAT](https://www.adafruit.com/product/2348) which connects to the Raspberry Pi. The stepper motor controls the azimuth geared down with a chain drive and the servo controls the elevation.
 
-## What you'll need
+It required for the pointer tot be initialized at true north at the moment of powering it up.  After that, it goes through a quick range-of-motion routine before starting to point at the ISS.
+
+> NOTE: While apps like [Spot the Station](https://spotthestation.nasa.gov/home.cfm) alert you when the ISS will be visible, this gadget lets you know where it is at any point in its orbit.
+
+### What you'll need
 
 - [Android Studio 3.0+](https://developer.android.com/studio/index.html) and install Android Things on the Raspberry Pi 3 (flashing instructions [here](https://developer.android.com/things/hardware/raspberrypi.html))
 
@@ -57,5 +64,5 @@ Part             | Qty
 
 
 ## References
-- https://spotthestation.nasa.gov/home.cfm
+- 
 - https://www.ngdc.noaa.gov/geomag-web/#declination
