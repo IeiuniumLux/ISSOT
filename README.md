@@ -64,3 +64,4 @@ Part             | Qty
 ## References
 - http://www.satflare.com/track.asp?q=25544#TOP
 - https://eol.jsc.nasa.gov/Tools/orbitTutorial.htm
+- http://propagation.ece.gatech.edu/ECE6390/notes/ASD5.pdf
