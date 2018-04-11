@@ -243,10 +243,11 @@ public class MainActivity extends Activity {
                             mDirNext = (cAzimuth < mPrevCAzimuth) ? MotorHat.BACKWARD : MotorHat.FORWARD;
 
                             // Check if azimuth has crossed from 360 to 0 degrees or vice versa
-                            if ((cAzimuth < 170 && mPrevCAzimuth > 190) || (cAzimuth > 190 && mPrevCAzimuth < 170)) {
+                            if ((cAzimuth < 160 && mPrevCAzimuth > 200) || (cAzimuth > 200 && mPrevCAzimuth < 160)) {
                                 // Recalculate direction of rotation
                                 mDirNext = (cAzimuth > mPrevCAzimuth) ? MotorHat.BACKWARD : MotorHat.FORWARD;
                                 mPrevCAzimuth = cAzimuth;
+                                mError = 0.0;
                                 Log.i(TAG, "It crossed over...");
                             }
 
