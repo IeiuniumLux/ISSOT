@@ -65,4 +65,4 @@ Part             | Qty
 
 ## References
 - http://www.satflare.com/track.asp?q=25544#TOP
-- 
+- https://eol.jsc.nasa.gov/Tools/orbitTutorial.htm
