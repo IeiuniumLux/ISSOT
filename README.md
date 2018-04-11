@@ -18,7 +18,7 @@ The figure below shows the addtional vectors and angles needed to calculate the 
 + ψ is the angle measured from rE to d
 
 ## How it works
-Built using a Raspberry Pi 3b and the Android things, ISSOT utilizes tracking information and motors to point at the ISS.
+Built using a Raspberry Pi 3b and the Android Things embedded OS platform, ISSOT utilizes tracking information and motors to point at the ISS.
 It performs the orbital propagation and coordinate the system transformations using the [WTIA REST API](https://wheretheiss.at/w/developer). The motors are driven by a [DC & Stepper Motor HAT](https://www.adafruit.com/product/2348); which connects to the Raspberry Pi. The stepper motor (geared down with a chain drive) controls the azimuth and the servo controls the elevation.
 
 The device requires to be initialized at [true north](https://www.ngdc.noaa.gov/geomag-web/#declination) at the moment of powering it up.  After that, it goes through a quick range-of-motion routine before starting to point at the ISS.
