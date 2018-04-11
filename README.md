@@ -11,7 +11,6 @@ Elevation (El): This is the angle measured in the plane perpendicular to the hor
 The figure below shows the addtional vectors and angles needed to calculate the elevation angle.
 
 ![angles](/images/geometry_elevation_angle.jpg)
-
 + rS is the vector from the center of the earth to the ISS
 + rE is the vector from the center of the earth to the  earth station (the tracker)
 + d is the vector from the tracker to the ISS.  
