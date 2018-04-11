@@ -23,7 +23,7 @@ It performs the orbital propagation and coordinate the system transformations us
 
 The device requires to be initialized at [true north](https://www.ngdc.noaa.gov/geomag-web/#declination) at the moment of powering it up.  After that, it goes through a quick range-of-motion routine before starting to point at the ISS.
 
-> NOTE: While apps like [Spot the Station](https://spotthestation.nasa.gov/home.cfm) alert you when the ISS will be visible, this gadget lets you know where it is at any point in its orbit.
+> NOTE: While apps like [Spot the Station](https://spotthestation.nasa.gov/home.cfm) alert you when the ISS will be visible, this device lets you know where it is at any point in its orbit.
 
 ### What you'll need
 
