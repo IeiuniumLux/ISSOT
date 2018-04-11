@@ -28,7 +28,7 @@ The device requires to be initialized at [true north](https://www.ngdc.noaa.gov/
 
 - [Android Studio 3.0+](https://developer.android.com/studio/index.html).
 - Install Android Things on the Raspberry Pi 3 (flashing instructions [here](https://developer.android.com/things/hardware/raspberrypi.html)).
-- And the following individual components:
+- The following individual components:
 
 Part             | Qty 
 ---------------- | ----
