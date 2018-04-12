@@ -56,9 +56,6 @@ Part             | Qty
 [Wood Rectangle Plaque](https://www.amazon.com/gp/product/B0085TGTAS/ref=ox_sc_act_title_1?smid=ATVPDKIKX0DER&psc=1) <br />*(optional)* | 1
 [Chain Breaker Tool](https://www.pitsco.com/TETRIX-Chain-Breaker-Tool) <br />*(optional)* | 1
 
-> The aluminum structural design is based on G. Hillhouse's prototype.
-
-
 ## References
 - [ISS orbital parameters, NASA Human spaceflight](https://spaceflight.nasa.gov/realdata/sightings/SSapplications/Post/JavaSSOP/orbit/ISS/SVPOST.html)
 - [Solar System Dynamics, Jet Propulsion Laboratory, NASA](https://ssd.jpl.nasa.gov/)
@@ -68,12 +65,13 @@ Part             | Qty
 - [Space Station Orbit Tutorial](https://eol.jsc.nasa.gov/Tools/orbitTutorial.htm)
 - [Exploring Space Through MATH](https://www.nasa.gov/pdf/740534main_Precal-ED_Space%20Vectors.pdf)
 - [Google Developers Codelabs](https://codelabs.developers.google.com/codelabs/androidthings-peripherals/#0)
+- G. Hillhouse's prototype for the aluminum structural design
 
 
 License
 -------
 
-Copyright (c) 2018 Al Bencomo
+Copyright 2018 Al Bencomo
 
 Licensed to the Apache Software Foundation (ASF) under one or more contributor
 license agreements.  See the NOTICE file distributed with this work for
