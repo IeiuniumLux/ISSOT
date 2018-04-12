@@ -184,7 +184,7 @@ public class MainActivity extends Activity {
 
 
     /**
-     * Get the Lat and Lon of ISS and move the pointer to that position when called.
+     * Get the Lat and Lon of ISS and move the pointer to that position.
      */
     private Runnable mTrackISSRunnable = new Runnable() {
 
@@ -223,13 +223,12 @@ public class MainActivity extends Activity {
                         final double rS = issAlt + EARTH_RADIUS; // Radius from the center of the earth to the station (km)
                         final double γ = Math.acos(Math.sin(φ1) * Math.sin(φ2) + Math.cos(φ1) * Math.cos(φ2) * Math.cos(λ1 - λ2));  // earth central angle
 
-                        final double d = rS * Math.sqrt((1 + Math.pow((EARTH_RADIUS / rS), 2)) - (2 * (EARTH_RADIUS / rS) * Math.cos(γ))); // distance to the iss
-                        final double El = Math.toDegrees(Math.acos(rS / d * Math.sin(γ)) * ((rS < (d + EARTH_RADIUS)) ? -1 : 1)); // elevation angle
-
-//                        final double d = Math.sqrt((1 + Math.pow((EARTH_RADIUS / rS), 2)) - (2 * (EARTH_RADIUS / rS) * Math.cos(γ))); // distance to the iss
-//                        final double El = Math.toDegrees(Math.acos(Math.sin(γ) / d) * ((rS > (d + EARTH_RADIUS)) ? -1 : 1));
+                        final double d = Math.sqrt((1 + Math.pow((EARTH_RADIUS / rS), 2)) - (2 * (EARTH_RADIUS / rS) * Math.cos(γ))); // distance to the iss
+                        final double El = Math.toDegrees(Math.acos(Math.sin(γ) / d) * ((d > 0.34) ? -1 : 1));
 
                         Log.d(TAG, Double.toString(cAzimuth));
+                        Log.d("d", Double.toString(d));
+                        Log.d(TAG, Double.toString(Math.toDegrees(d)));
                         Log.d("el:", Double.toString(El));
 
                         // Initialize the stepper direction assuming its initial position is true north
@@ -250,7 +249,6 @@ public class MainActivity extends Activity {
                                 // Recalculate direction of rotation
                                 mDirNext = (cAzimuth > mPrevCAzimuth) ? MotorHat.BACKWARD : MotorHat.FORWARD;
                                 mPrevCAzimuth = cAzimuth;
-                                mError = 0.0;
                                 Log.i(TAG, "It crossed over...");
                             }
 
@@ -258,7 +256,6 @@ public class MainActivity extends Activity {
                             if (mStepsNext > 0) {
                                 mPrevCAzimuth = cAzimuth;
                                 mError = mStepsNext * 0.3;
-//                                Log.d("mError:", Double.toString(mError));
                             }
                             mStepperMotor.step(mStepsNext, mDirNext, MotorHat.MICROSTEP);
                         }
