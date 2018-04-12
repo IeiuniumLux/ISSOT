@@ -60,7 +60,12 @@ Part             | Qty
 
 
 ## References
-- http://www.satflare.com/track.asp?q=25544#TOP
-- https://eol.jsc.nasa.gov/Tools/orbitTutorial.htm
-- http://propagation.ece.gatech.edu/ECE6390/notes/ASD5.pdf
-- https://www.nasa.gov/pdf/740534main_Precal-ED_Space%20Vectors.pdf
+The following resoruces were used in the development of this projects:
+
+- ISS orbital parameters, NASA Human spaceflight](https://spaceflight.nasa.gov/realdata/sightings/SSapplications/Post/JavaSSOP/orbit/ISS/SVPOST.html)
+- [Solar System Dynamics, Jet Propulsion Laboratory, NASA](https://ssd.jpl.nasa.gov/)
+- [OREKIT (ORbits Extrapolation KIT), C.-S.](https://www.orekit.org/)
+- [Earth Orientation Center, OBSPM](http://hpiers.obspm.fr/eop-pc/index.php?index=leapsecond&lang=en)
+- [Satellite and Flare Tracking](http://www.satflare.com/home.asp)
+- [Space Station Orbit Tutorial](https://eol.jsc.nasa.gov/Tools/orbitTutorial.htm)
+- [Exploring Space Through MATH](https://www.nasa.gov/pdf/740534main_Precal-ED_Space%20Vectors.pdf)
