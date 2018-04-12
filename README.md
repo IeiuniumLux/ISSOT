@@ -67,7 +67,7 @@ Part             | Qty
 - [Google Developers Codelabs](https://codelabs.developers.google.com/codelabs/androidthings-peripherals/#0)
 
 ### Acknowledgement
-Special thanks to G. Hillhouse's design for the tracker aluminum structural.
+Special thanks to G. Hillhouse for the design of the tracker aluminum structural.
 
 License
 -------
