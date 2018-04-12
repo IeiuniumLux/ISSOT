@@ -85,10 +85,10 @@ public class MainActivity extends Activity {
     private static final double TRACKER_LAT = 37.3041612;
     private static final double TRACKER_LON = -121.9769608;
 
-    private static boolean mStepperIntialized; // check if the stepper direction has been initialized
+    private static boolean mTrackerIntialized; // check if the stepper direction has been initialized
     private Handler mHandler;
     private MotorHat mMotorHat;
-    private double mPrevCAzimuth;
+    private double mPrevAzimuth;
     private int mStepsNext = 0;
     private int mDirNext = MotorHat.FORWARD;
     private double mError = 0.0;
@@ -104,7 +104,7 @@ public class MainActivity extends Activity {
 
         while (!isOnline());
 
-        mStepperIntialized = false;
+        mTrackerIntialized = false;
 
         try {
             mServo = RainbowHat.openServo();
@@ -206,15 +206,15 @@ public class MainActivity extends Activity {
                         final double λ2 = Math.toRadians(issLon); // Lambda2
 
                         // Azimuth measured clockwise from true north
-                        final double azimuth = Math.toDegrees(Math.atan2(Math.sin(λ2 - λ1) * Math.cos(φ2),
+                        final double ψ = Math.toDegrees(Math.atan2(Math.sin(λ2 - λ1) * Math.cos(φ2),
                                 Math.cos(φ1) * Math.sin(φ2) - Math.sin(φ1) * Math.cos(φ2) * Math.cos(λ2 - λ1)
                         ));
 
-                        final double cAzimuth = (azimuth < 0) ? 360 + azimuth : azimuth;
+                        final double azimuth = (ψ < 0) ? 360 + ψ : ψ;
 
-                        if (mDisplay != null && mPrevCAzimuth != cAzimuth) {
+                        if (mDisplay != null && mPrevAzimuth != azimuth) {
                             try {
-                                mDisplay.display(cAzimuth);
+                                mDisplay.display(azimuth);
                             } catch (IOException e) {
                                 Log.e(TAG, "Error updating display", e);
                             }
@@ -226,35 +226,34 @@ public class MainActivity extends Activity {
                         final double d = Math.sqrt((1 + Math.pow((EARTH_RADIUS / rS), 2)) - (2 * (EARTH_RADIUS / rS) * Math.cos(γ))); // distance to the iss
                         final double El = Math.toDegrees(Math.acos(Math.sin(γ) / d) * ((d > 0.34) ? -1 : 1));
 
-                        Log.d(TAG, Double.toString(cAzimuth));
+                        Log.d(TAG, Double.toString(azimuth));
                         Log.d("d", Double.toString(d));
                         Log.d(TAG, Double.toString(Math.toDegrees(d)));
                         Log.d("el:", Double.toString(El));
 
-                        // Initialize the stepper direction assuming its initial position is true north
-                        if (!mStepperIntialized) {
-                            mStepsNext = (int) Math.round(cAzimuth * DEGREES_PER_STEP);
+                        // Initialize the tracker direction using True North as the starting position
+                        if (!mTrackerIntialized) {
+                            mStepsNext = (int) Math.round(azimuth * DEGREES_PER_STEP);
                             mDirNext = MotorHat.FORWARD;
                             mStepperMotor.step(mStepsNext, mDirNext, MotorHat.MICROSTEP);
-                            mPrevCAzimuth = cAzimuth;
-                            mStepperIntialized = true;
+                            mPrevAzimuth = azimuth;
+                            mTrackerIntialized = true;
                             Log.i(TAG, "Tracker Initialized...");
                         } else {
 
-                            // Determine direction of rotation
-                            mDirNext = (cAzimuth < mPrevCAzimuth) ? MotorHat.BACKWARD : MotorHat.FORWARD;
+                            mDirNext = (azimuth < mPrevAzimuth) ? MotorHat.BACKWARD : MotorHat.FORWARD;
 
                             // Check if azimuth has crossed from 360 to 0 degrees or vice versa
-                            if ((cAzimuth < 160 && mPrevCAzimuth > 200) || (cAzimuth > 200 && mPrevCAzimuth < 160)) {
+                            if ((azimuth < 160 && mPrevAzimuth > 200) || (azimuth > 200 && mPrevAzimuth < 160)) {
                                 // Recalculate direction of rotation
-                                mDirNext = (cAzimuth > mPrevCAzimuth) ? MotorHat.BACKWARD : MotorHat.FORWARD;
-                                mPrevCAzimuth = cAzimuth;
+                                mDirNext = (azimuth > mPrevAzimuth) ? MotorHat.BACKWARD : MotorHat.FORWARD;
+                                mPrevAzimuth = azimuth;
                                 Log.i(TAG, "It crossed over...");
                             }
 
-                            mStepsNext = (int) ((Math.abs(cAzimuth - mPrevCAzimuth)) - (mError / DEGREES_PER_STEP));
+                            mStepsNext = (int) ((Math.abs(azimuth - mPrevAzimuth)) - (mError / DEGREES_PER_STEP));
                             if (mStepsNext > 0) {
-                                mPrevCAzimuth = cAzimuth;
+                                mPrevAzimuth = azimuth;
                                 mError = mStepsNext * 0.3;
                             }
                             mStepperMotor.step(mStepsNext, mDirNext, MotorHat.MICROSTEP);
