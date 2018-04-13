@@ -1,5 +1,5 @@
 # ISSOT
-The ISS Orbit Tracker (ISSOT) is an [Android Things](https://developer.android.com/things/get-started/index.html) project that keeps track of the [International Space Station](https://www.nasa.gov/pdf/508318main_ISS_ref_guide_nov2010.pdf). It calculates and displays the azimuth and elevation during the ISS orbits. This relatively simple device will give you a visual indication of the location of the Space Station, even if you can't see it.
+The ISS Orbit Tracker (ISSOT) is an [Android Things](https://developer.android.com/things/get-started/index.html) experiment that keeps track of the [International Space Station](https://www.nasa.gov/pdf/508318main_ISS_ref_guide_nov2010.pdf). It calculates and displays the azimuth and elevation during the ISS orbits. This relatively simple device will give you a visual indication of the location of the Space Station, even if you can't see it.
 
 ![demo](/images/Issot.gif)
 
