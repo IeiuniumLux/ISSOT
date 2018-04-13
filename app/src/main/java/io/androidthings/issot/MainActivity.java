@@ -249,11 +249,6 @@ public class MainActivity extends Activity {
                         final double d = Math.sqrt((1 + Math.pow((EARTH_RADIUS / rS), 2)) - (2 * (EARTH_RADIUS / rS) * Math.cos(γ))); // distance to the iss
                         final double El = Math.toDegrees(Math.acos(Math.sin(γ) / d) * ((d > 0.34) ? -1 : 1));
 
-                        Log.d(TAG, Double.toString(azimuth));
-                        Log.d("d", Double.toString(d));
-                        Log.d(TAG, Double.toString(Math.toDegrees(d)));
-                        Log.d("el:", Double.toString(El));
-
                         // Initialize the tracker direction using True North as the starting position
                         if (!mTrackerIntialized) {
                             mStepsNext = (int) Math.round(azimuth * DEGREES_PER_STEP);
@@ -286,26 +281,8 @@ public class MainActivity extends Activity {
                             mLedColors[i] = Color.BLACK;
                         }
                         if (El > 0) {
-                            Log.i("El/12", Double.toString(El/12));
-                            mLedColors[(int)El/12] = Color.HSVToColor(255, new float[]{(HSV_GREEN - ((float) El * (HSV_GREEN - HSV_RED) / mLedColors.length) + 360) % 360, 1.0f, 1.0f});
-//                            if (El > 12) {
-//                                mLedColors[1] = Color.HSVToColor(255, new float[]{(HSV_GREEN - ((float) El * (HSV_GREEN - HSV_RED) / mLedColors.length) + 360) % 360, 1.0f, 1.0f});
-//                            }
-//                            if (El > 24) {
-//                                mLedColors[2] = Color.HSVToColor(255, new float[]{(HSV_GREEN - ((float) El * (HSV_GREEN - HSV_RED) / mLedColors.length) + 360) % 360, 1.0f, 1.0f});
-//                            }
-//                            if (El > 36) {
-//                                mLedColors[3] = Color.HSVToColor(255, new float[]{(HSV_GREEN - ((float) El * (HSV_GREEN - HSV_RED) / mLedColors.length) + 360) % 360, 1.0f, 1.0f});
-//                            }
-//                            if (El > 60) {
-//                                mLedColors[4] = Color.HSVToColor(255, new float[]{(HSV_GREEN - ((float) El * (HSV_GREEN - HSV_RED) / mLedColors.length) + 360) % 360, 1.0f, 1.0f});
-//                            }
-//                            if (El > 72) {
-//                                mLedColors[5] = Color.HSVToColor(255, new float[]{(HSV_GREEN - ((float) El * (HSV_GREEN - HSV_RED) / mLedColors.length) + 360) % 360, 1.0f, 1.0f});
-//                            }
-//                            if (El > 84) {
-//                                mLedColors[6] = Color.HSVToColor(255, new float[]{(HSV_GREEN - ((float) El * (HSV_GREEN - HSV_RED) / mLedColors.length) + 360) % 360, 1.0f, 1.0f});
-//                            }
+                            mLedColors[(int)El/12] = Color.HSVToColor(255,
+                                    new float[]{(HSV_GREEN - ((float) El * (HSV_GREEN - HSV_RED) / mLedColors.length) + 360) % 360, 1.0f, 1.0f});
                         }
                         mLedStrip.write(mLedColors);
                     } catch (Exception e) {
