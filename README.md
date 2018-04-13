@@ -61,12 +61,10 @@ Part             | Qty
 
 ## References
 - [ISS orbital parameters, NASA Human spaceflight](https://spaceflight.nasa.gov/realdata/sightings/SSapplications/Post/JavaSSOP/orbit/ISS/SVPOST.html)
-- [Solar System Dynamics, Jet Propulsion Laboratory, NASA](https://ssd.jpl.nasa.gov/)
 - [OREKIT (ORbits Extrapolation KIT), C.-S.](https://www.orekit.org/)
 - [Earth Orientation Center, OBSPM](http://hpiers.obspm.fr/eop-pc/index.php?index=leapsecond&lang=en)
 - [Satellite and Flare Tracking](http://www.satflare.com/home.asp)
 - [Space Station Orbit Tutorial](https://eol.jsc.nasa.gov/Tools/orbitTutorial.htm)
-- [Exploring Space Through MATH](https://www.nasa.gov/pdf/740534main_Precal-ED_Space%20Vectors.pdf)
 - [Orbital Coordinate Systems](https://celestrak.com/columns/v02n01/)
 - [Google Developers Codelabs](https://codelabs.developers.google.com/codelabs/androidthings-peripherals/#0)
 
