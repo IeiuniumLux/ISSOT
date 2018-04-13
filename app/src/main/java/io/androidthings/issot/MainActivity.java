@@ -2,6 +2,7 @@ package io.androidthings.issot;
 
 import android.app.Activity;
 import android.content.Context;
+import android.graphics.Color;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.os.Bundle;
@@ -15,6 +16,7 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonObjectRequest;
 import com.android.volley.toolbox.Volley;
+import com.google.android.things.contrib.driver.apa102.Apa102;
 import com.google.android.things.contrib.driver.ht16k33.AlphanumericDisplay;
 import com.google.android.things.contrib.driver.ht16k33.Ht16k33;
 import com.google.android.things.contrib.driver.pwmservo.Servo;
@@ -97,6 +99,11 @@ public class MainActivity extends Activity {
 
     private Servo mServo;
     private AlphanumericDisplay mDisplay;
+    private Apa102 mLedStrip;
+    private int[] mLedColors;
+
+    private static final int HSV_GREEN = 90;
+    private static final int HSV_RED = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -111,6 +118,10 @@ public class MainActivity extends Activity {
             mServo.setPulseDurationRange(0.64, 2.44);
             mServo.setAngleRange(0.0, 180.0);
             mServo.setEnabled(true);
+
+            mLedColors = new int[RainbowHat.LEDSTRIP_LENGTH];
+            mLedStrip = RainbowHat.openLedStrip();
+            mLedStrip.setBrightness(Apa102.MAX_BRIGHTNESS);
 
             // Initialize 7-segment display
             mDisplay = RainbowHat.openDisplay();
@@ -165,6 +176,18 @@ public class MainActivity extends Activity {
                 Log.e(TAG, "Error closing servo", e);
             } finally {
                 mServo = null;
+            }
+        }
+
+        if (mLedStrip != null) {
+            try {
+                mLedStrip.setBrightness(0);
+                mLedStrip.write(new int[7]);
+                mLedStrip.close();
+            } catch (IOException e) {
+                Log.e(TAG, "Error closing LED strip", e);
+            } finally {
+                mLedStrip = null;
             }
         }
 
@@ -259,6 +282,32 @@ public class MainActivity extends Activity {
                             mStepperMotor.step(mStepsNext, mDirNext, MotorHat.MICROSTEP);
                         }
                         mServo.setAngle(Math.abs(90 + El));
+                        for (int i = 0; i < mLedColors.length; i++) {
+                            mLedColors[i] = Color.BLACK;
+                        }
+                        if (El > 0) {
+                            Log.i("El/12", Double.toString(El/12));
+                            mLedColors[(int)El/12] = Color.HSVToColor(255, new float[]{(HSV_GREEN - ((float) El * (HSV_GREEN - HSV_RED) / mLedColors.length) + 360) % 360, 1.0f, 1.0f});
+//                            if (El > 12) {
+//                                mLedColors[1] = Color.HSVToColor(255, new float[]{(HSV_GREEN - ((float) El * (HSV_GREEN - HSV_RED) / mLedColors.length) + 360) % 360, 1.0f, 1.0f});
+//                            }
+//                            if (El > 24) {
+//                                mLedColors[2] = Color.HSVToColor(255, new float[]{(HSV_GREEN - ((float) El * (HSV_GREEN - HSV_RED) / mLedColors.length) + 360) % 360, 1.0f, 1.0f});
+//                            }
+//                            if (El > 36) {
+//                                mLedColors[3] = Color.HSVToColor(255, new float[]{(HSV_GREEN - ((float) El * (HSV_GREEN - HSV_RED) / mLedColors.length) + 360) % 360, 1.0f, 1.0f});
+//                            }
+//                            if (El > 60) {
+//                                mLedColors[4] = Color.HSVToColor(255, new float[]{(HSV_GREEN - ((float) El * (HSV_GREEN - HSV_RED) / mLedColors.length) + 360) % 360, 1.0f, 1.0f});
+//                            }
+//                            if (El > 72) {
+//                                mLedColors[5] = Color.HSVToColor(255, new float[]{(HSV_GREEN - ((float) El * (HSV_GREEN - HSV_RED) / mLedColors.length) + 360) % 360, 1.0f, 1.0f});
+//                            }
+//                            if (El > 84) {
+//                                mLedColors[6] = Color.HSVToColor(255, new float[]{(HSV_GREEN - ((float) El * (HSV_GREEN - HSV_RED) / mLedColors.length) + 360) % 360, 1.0f, 1.0f});
+//                            }
+                        }
+                        mLedStrip.write(mLedColors);
                     } catch (Exception e) {
                         e.printStackTrace();
                     }
