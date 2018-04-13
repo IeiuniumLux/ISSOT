@@ -69,7 +69,7 @@ Part             | Qty
 - [Google Developers Codelabs](https://codelabs.developers.google.com/codelabs/androidthings-peripherals/#0)
 
 ### Acknowledgement
-Special thanks to G. Hillhouse for suggesting the Actobotics® Hardware to build the tracker aluminum structural.
+Special thanks to G. Hillhouse for suggesting the Actobotics® hardware to build the tracker aluminum structural.
 
 License
 -------
