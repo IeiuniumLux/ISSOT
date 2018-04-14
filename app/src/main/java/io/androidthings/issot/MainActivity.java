@@ -281,7 +281,7 @@ public class MainActivity extends Activity {
                             mLedColors[i] = Color.BLACK;
                         }
                         if (El > 0) {
-                            mLedColors[(int)El/12] = Color.HSVToColor(255,
+                            mLedColors[(int)(El/12.8572)] = Color.HSVToColor(255,
                                     new float[]{(HSV_GREEN - ((float) El * (HSV_GREEN - HSV_RED) / mLedColors.length) + 360) % 360, 1.0f, 1.0f});
                         }
                         mLedStrip.write(mLedColors);
