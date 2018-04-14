@@ -40,6 +40,7 @@ Part             | Qty
 [HS-322HD Servo](https://www.servocity.com/hs-322hd-servo)<br /> | 1 
 [Lightweight HUB Horn](https://www.servocity.com/lightweight-hub-horns)<br /> | 1
 [Set Screw Hub - 5mm Bore](https://www.servocity.com/770-set-screw-hubs)<br /> | 1 
+[5/16" – 3/8" Rubber End Cap](https://www.servocity.com/0-375-3-8-rubber-end-cap)<br /> | 1
 [1" Bore, Face Tapped Clamping HUB, 1.50" Pattern](https://www.servocity.com/1-bore-clamping-hub-a)<br /> | 1
 [1" Stainless Steel Tubing](https://www.servocity.com/1-00-stainless-steel-tubing)<br />*length: 6.00"* | 1
 [Standard Servo Plate C](https://www.servocity.com/standard-servo-plate-c)<br /> | 1
@@ -51,7 +52,6 @@ Part             | Qty
 [90° Single Angle Short Pattern Bracket](https://www.servocity.com/90-single-angle-short-channel-bracket)<br /> | 2
 [1" Bore Bottom Tapped Clamping Mount](https://www.servocity.com/1-bore-bottom-tapped-clamping-mounts)<br /> | 2 
 [1" Bore Side Tapped Pillow Block](https://www.servocity.com/1-000-bore-quad-pillow-block)<br /> | 2
-[5/16" – 3/8" Rubber End Cap](https://www.servocity.com/0-375-3-8-rubber-end-cap)<br /> | 2 
 [Large Square Screw Plate](https://www.servocity.com/large-square-screw-plate)<br /> | 3
 [Flat Dual Pattern Bracket](https://www.servocity.com/flat-dual-channel-bracket)<br /> | 3
 [Actobotics® Hardware Pack A](https://www.servocity.com/actobotics-hardware-pack-a)<br />*(optional, but recommended)*| 1
