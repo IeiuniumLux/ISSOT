@@ -45,7 +45,7 @@ Part             | Qty
 [Standard Servo Plate C](https://www.servocity.com/standard-servo-plate-c)<br /> | 1
 [0.250" Chain (5 Feet)](https://www.servocity.com/0-250-chain-5-feet)<br /> | 1
 [3.85" (11 hole) Aluminum Beams (2 PACK)](https://www.servocity.com/3-85-aluminum-beam)<br /> | 1
-[1" Bore 0.250" Pitch Aliminum HUB Sprocket](https://www.servocity.com/1-50-aluminum-hub-mount-sprockets-0-250-pitch)<br />*# of teeth: 40T* | 1
+[1" Bore 0.250" Pitch Aluminum HUB Sprocket](https://www.servocity.com/1-50-aluminum-hub-mount-sprockets-0-250-pitch)<br />*# of teeth: 40T* | 1
 [1/2" Bore 0.250" Pitch Aluminum HUB Sprocket](https://www.servocity.com/0-770-aluminum-hub-mount-sprockets-0-250-pitch)<br />*# of teeth: 16T* | 1
 [90° Single Angle Pattern Bracket](https://www.servocity.com/90-single-angle-channel-bracket)<br /> | 1
 [90° Single Angle Short Pattern Bracket](https://www.servocity.com/90-single-angle-short-channel-bracket)<br /> | 2
