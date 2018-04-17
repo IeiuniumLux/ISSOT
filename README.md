@@ -22,7 +22,7 @@ Built using a Raspberry Pi 3b and the Android Things embedded OS platform, ISSOT
 
 The device requires to be initialized at [true north](https://www.ngdc.noaa.gov/geomag-web/#declination) at the moment of powering it up.  After that, it goes through a quick range-of-motion routine before starting to point at the ISS.
 
-![issot](/images/ISSOT-IO.jpg)
+[![issot](/images/ISSOT-IO.jpg)](https://youtu.be/KR2mktF1Gqo)
 ### What you'll need
 
 - WiFi and Internet access.
