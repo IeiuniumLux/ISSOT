@@ -8,7 +8,7 @@ The ISS conducts operations in the low earth orbit (LEO) about 400 km above the 
 
 Azimuth (ψ) is the angle measured in the plane parallel to the horizon from the polar north going clockwise. This angle has a value between 0° and 360°. This is the azimuth equation used:
 
-+ θ = atan2((sin Δλ ⋅ cos φ₂), (cos φ₁ ⋅ sin φ₂ − sin φ₁ ⋅ cos φ₂ ⋅ cos Δλ))
+> θ = atan2((sin Δλ ⋅ cos φ₂), (cos φ₁ ⋅ sin φ₂ − sin φ₁ ⋅ cos φ₂ ⋅ cos Δλ))
 
 Elevation (El) is the angle measured in the plane perpendicular to the horizon going up towards to the ISS. This angle has a value between –90° and +90° such that the horizontal direction is 0°. A vertically upwards is +90° and vertically downwards is –90°. The figure below shows the addtional vectors and angles needed to calculate the elevation angle.
 
